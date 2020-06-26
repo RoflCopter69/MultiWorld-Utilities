@@ -106,13 +106,12 @@ multi_items = {get_id(name) for name in ("Progressive Sword", "Progressive Bow",
 links = {get_id(key): get_id(value) for key, value in links.items()}
 levels = {get_id(key): value for key, value in levels.items()}
 
-tracking_names = ["Progressive Sword", "Progressive Bow", "Book of Mudora", "Hammer",
-                  "Hookshot", "Magic Mirror", "Flute",
-                  "Pegasus Boots", "Progressive Glove", "Flippers", "Moon Pearl", "Blue Boomerang",
-                  "Red Boomerang", "Bug Catching Net", "Cape", "Shovel", "Lamp",
-                  "Mushroom", "Magic Powder",
-                  "Cane of Somaria", "Cane of Byrna", "Fire Rod", "Ice Rod", "Bombos", "Ether", "Quake",
-                  "Bottle", "Triforce"]  # TODO make sure this list has what we need and sort it better
+tracking_names = ["Progressive Bow", "Blue Boomerang", "Red Boomerang",  "Hookshot", "Mushroom", "Magic Powder", 
+                  "Fire Rod", "Ice Rod", "Bombos", "Ether", "Quake",
+                  "Lamp", "Hammer", "Flute", "Shovel", "Book of Mudora", 
+                  "Bottle", "Cane of Somaria", "Cane of Byrna", "Cape", "Magic Mirror",
+                  "Pegasus Boots", "Progressive Glove", "Flippers", "Moon Pearl",  "Bug Catching Net", 
+                  "Progressive Sword", "Triforce"]  
 
 default_locations = {
     'Light World': {1572864, 1572865, 60034, 1572867, 1572868, 60037, 1572869, 1572866, 60040, 59788, 60046, 60175,
